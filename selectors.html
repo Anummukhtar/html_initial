@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+     background-color: grey;
+	 
+}
+
+        form {
+            font-family: Arial; 
+            width: 300px;
+            margin: 0 auto; 
+            padding: 20px; 
+            border: 1px solid ; 
+            border-radius: 8px; 
+            background-color: white; 
+        }
+
+        label {
+            display: block; 
+            margin-bottom: 5px; 
+            font-weight: bold; 
+        }
+
+        
+        input[type="text"] {
+            width: 90%; 
+            padding: 5%; 
+            margin-bottom: 10px; 
+            border: 1px solid ;
+            border-radius: 4px; 
+        }
+
+       
+        button {
+            background-color: blue; 
+			
+            color: white; 
+            border: none; 
+            padding: 5%; 
+            /*border-radius: */
+            width: 90%;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+		
+		#loginForm {
+            width: 20%;
+            margin: auto;
+            padding: 2%;
+            background-color: white;
+        }
+		input, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<form id="loginForm">
+    <label for="FirstName">First Name:</label>
+    <input type="text" id="FirstName" name="FirstName">
+    <br>
+    <label for="LastName">Last Name:</label>
+    <input type="text" id="LastName" name="LastName">
+    <br>
+    <label for="Email">Email:</label>
+    <input type="text" id="Email" name="Email">
+    <br>
+    <label for="Password">Password:</label>
+    <input type="text" id="Password" name="Password">
+    <br>
+    <button type="submit">Login</button>
+</form>
+
+</body>
+</html>
